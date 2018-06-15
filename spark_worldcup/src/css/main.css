@@ -1,0 +1,478 @@
+html,body,div,section,ul,li,a,span,label{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    height: 100%;
+}
+body {
+    font-size: 2rem;
+    height: 100%;
+    position: relative;
+}
+.worldcup__banner {
+    font-size: 1.4rem;
+}
+.worldcup__banner section {
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    background: #f9f8f6;
+    border-bottom: .1rem solid #f3f1ee;
+    color: #999;
+}
+.worldcup__slogan {
+    color: #e96bd4;
+    text-decoration: none;
+}
+.worldcup__footer {
+    text-align: center;
+    font-size: 1.2rem;
+    height: 10rem;
+    line-height: 10rem;
+    margin-top: 3rem;
+    width: 100%;
+    background:
+}
+.worldcup__footer a {
+    text-decoration: none;
+    color: #999;
+    display: inline-block;
+    margin-right: 3rem;
+}
+.worldcup__header {
+    height: 7rem;
+    color: #000;
+    line-height: 7rem;
+    position: relative;
+}
+.worldcup__header div {
+    display: inline-block;
+}
+.worldcup__logo {
+    padding-left: 2rem;
+    position: absolute;
+    z-index: 100;
+}
+.worldcup__logo i {
+    width: 4rem;
+    height: 4rem;
+    background: url('/images/fifaicon.png') no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    bottom: -0.5rem;
+}
+.worldcup__logo a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #000;
+}
+#worldcup__menu {
+    text-align: center;
+    font-size: 1.8rem;
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    left: 0;
+    top: 0;
+}
+#worldcup__menu a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin-right: 2rem;
+}
+#worldcup__menu a:hover {
+    color: #e96bd4;
+}
+#worldcup__menu .worldcup__menu_current {
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+
+.landing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 128rem;
+    margin: 2rem auto 0;
+}
+
+@media (min-width:760px) {
+    .landing {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+}
+
+.landing__description {
+    margin: 3.2rem 0 4.8rem;
+    padding: 0 2.4rem
+}
+
+@media (min-width:760px) {
+    .landing__description {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        margin: 0;
+        padding: 3.2rem 3.2rem 0
+    }
+}
+
+.landing__headline {
+    font-size: 5rem;
+    line-height: 1;
+}
+
+@media (min-width:480px) {
+    .landing__headline {
+        font-size: 5rem
+    }
+}
+
+@media (min-width:760px) {
+    .landing__headline {
+        font-size: 5rem
+    }
+}
+
+@media (min-width:1200px) {
+    .landing__headline {
+        font-size: 5rem
+    }
+}
+
+.landing__subheadline {
+    max-width: 48rem;
+    margin: 1.5rem 0;
+    font-size: 3.2rem;
+    line-height: 1.2
+}
+
+@media (min-width:760px) {
+    .landing__subheadline {
+        margin-bottom: 3.2rem
+    }
+}
+
+.landing__slots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden
+}
+
+@media (min-width:760px) {
+    .landing__slots {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        height: 92vh;
+        min-height: 60rem;
+        max-height: 88rem
+    }
+}
+
+@media (min-width:960px) {
+    .landing__slots {
+        padding-right: 2.4rem
+    }
+}
+
+.landing__pattern {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+@media (min-width:760px) {
+    .landing__pattern {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-preferred-size: 47.5%;
+        flex-basis: 47.5%
+    }
+}
+
+@media (min-width:760px) {
+    .landing__pattern:nth-of-type(2) {
+        -webkit-transform: translateY(-3rem);
+        transform: translateY(-3rem)
+    }
+}
+
+.landing__pattern:nth-of-type(3) {
+    display: none
+}
+
+@media (min-width:960px) {
+    .landing__pattern:nth-of-type(3) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+.landing__country {
+    height: 15rem;
+    padding-right: 1.064rem;
+    padding-bottom: 1.064rem
+}
+
+@media (min-width:760px) {
+    .landing__country {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+}
+
+a.button__largest {
+    --color-main: #e37ad3;
+    --color-shadow: #d850b1;
+    background-color: var(--color-main);
+    color: #fff;
+    font-weight: 500;
+    border: .2rem solid #0b0b0b;
+    -webkit-box-shadow: inset 0 0 0 .3rem var(--color-shadow);
+    box-shadow: inset 0 0 0 .3rem var(--color-shadow);
+    width: 15rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/* .landing__pattern div {
+    width: 24rem;
+    height: 24rem;
+    display: inline-block;
+    border: solid 1px blue;
+    overflow: hidden;
+} */
+
+.unlogin__header {
+    width: 100%;
+    text-align: center;
+}
+.unlogin__header h3 {
+    font-size: 4.2rem;
+}
+.unlogin__header p {
+    color: #82817d;
+}
+.unlogin__header div {
+    margin-top: 10rem;
+}
+.unlogin__header span {
+    background: #fadff4;
+    display: inline-block;
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+.marketplace__header {
+    width: 100%;
+    margin: 0 auto;
+    height: 10rem;
+    margin-top: 4rem;
+    border-bottom: solid 0.2rem #ccc;
+}
+.marketplace__header div {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+.marketplace__header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: solid 0.2rem #e96bd4;
+    line-height: 7rem;
+    position: absolute;
+    bottom: 0;
+}
+.marketplace__teams {
+    width: 80%;
+    margin: 5rem auto;
+}
+.marketplace__teams li {
+    display: inline-block;
+    list-style: none;
+    width: 25%;
+    text-align: center;
+    /* border: solid 1px #ddd; */
+}
+.marketplace__box {
+    border: solid 1px #ddd;
+    width: 90%;
+    border-radius: 1rem;
+    margin: 0 auto 2.5rem;
+    padding-bottom: 1rem;;
+}
+.marketplace__box div {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #000;
+}
+.marketplace__teams img {
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+}
+.marketplace__box button {
+    width: 80%;
+    height: 3rem;
+    border: solid 1px #ddd;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.marketplace__box button:hover {
+    background: #f5f5f5;
+}
+.marketplace__box span {
+    background: #f5f5f5;
+    display: block;
+    height: 3rem;
+    line-height: 3rem;
+}
+.prizepool__box {
+    width: 60%;
+    margin: 10rem auto;
+    min-height: 40rem;
+}
+.worldcup__signin {
+    width: 20rem;
+    margin: 0 auto 0;
+}
+.worldcup__signin img {
+    width: 100%;
+}
+.prizepool__box section {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.match__list {
+    width: 80%;
+    margin: 5rem auto;
+    overflow: hidden;
+}
+.match__list .match__item {
+    height: 15rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-top: 0.1rem solid #ccc;
+}
+.match__list img {
+    width: 8rem;
+    display: block;
+    margin: 0.5rem auto 0;
+}
+.match__list button {
+    display: block;
+    margin: 0.5rem auto;
+}
+.match__desc, .match__time {
+    display: block;
+    line-height: 3rem;
+}
+.match__desc {
+    font-weight: bold;
+}
+.myteam__box {
+    width: 80%;
+    margin: 5rem auto;
+}
+.myteam__box img {
+    width: 100%;
+}
+.myteam__box .myteam__team {
+    width: 20%;
+    display: inline-block;
+    margin: 2rem 2rem 0 0;
+    text-align: center;
+}
+.myteam__team p {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.marketplace__loading {
+    width: 7rem;
+    margin: 0 auto;
+}
+.marketplace__loading img {
+    width: 100%;
+}
+.match__prizepool {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: red;
+}
+.worldcup__usage {
+    width: 70%;
+    margin: 3rem auto;
+    min-height: 40rem;
+    overflow: hidden;
+}
+.worldcup__usage h4 {
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+.worldcup__usage p {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+}
+.match__vs {
+    font-size: 2.5rem;
+}
+.prizepool__team{
+    margin-top: 6rem;
+}
+.prizepool__team div {
+    margin-bottom: 3rem;
+}
+.prizepool__team span {
+    display: inline-block;
+    width: 10rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+.prizepool__team img {
+    width: 100%;
+}
