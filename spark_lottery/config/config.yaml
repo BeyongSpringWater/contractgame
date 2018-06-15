@@ -1,0 +1,31 @@
+url: http://47.94.242.18:8545
+#url: http://127.0.0.1:8545
+
+# if alsolute path, 4 slasheds in total
+sqlite_db: sqlite:///contract.db
+
+# 一元夺宝
+one_ether:
+    account_key: "165b11728f48c3ac5f152fadcf81e94e1cb3357ee2e186b58c5ca54dc181fda4"
+    #account_key: "8902f89f53d5861197a748214ef9633bec85e9831638f01bb6208dd467578960"
+    # contract_address: "0x43ED50a358c88dBCAe3f830587FEE813C4c90bAA"
+    contract_path: ./contract/lottery.sol
+    #contract_address: null
+    name: ETH-4
+    # 每次投注个数
+    ante: 1
+    # 开奖个数
+    required_number_players: 6
+    # 奖金百分比
+    winner_percentage: 80
+
+
+
+
+
+
+redis:
+    host: 39.106.195.31
+    port: 6379
+    password: Qqnns6k6LUgtH2oN
+
